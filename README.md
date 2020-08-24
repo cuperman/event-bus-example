@@ -30,5 +30,5 @@ npm run cdk -- --profile replica-account deploy EventBusReplica-622230865285-us-
 Send test events
 
 ```bash
-events put-events --profile origin-account --entries file://event.json
+aws events put-events --profile origin-account --entries file://event.json
 ```
