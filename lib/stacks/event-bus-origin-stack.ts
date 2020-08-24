@@ -23,6 +23,7 @@ export class EventBusOriginStack extends cdk.Stack {
       eventBusName: props.eventBusName
     });
 
+    // Log all events from this account
     new constructs.EventLogger(this, 'EventLogger', {
       eventBus: this.eventBus,
       eventPattern: {
