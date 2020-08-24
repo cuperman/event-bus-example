@@ -2,7 +2,7 @@
   "name": "event_demo",
   "version": "0.1.0",
   "bin": {
-    "event_demo": "bin/event_demo.js"
+    "event_demo": "bin/event-bus-app.js"
   },
   "scripts": {
     "build": "tsc",
@@ -21,6 +21,10 @@
     "typescript": "~3.9.6"
   },
   "dependencies": {
+    "@aws-cdk/aws-events": "^1.60.0",
+    "@aws-cdk/aws-events-targets": "^1.60.0",
+    "@aws-cdk/aws-iam": "^1.60.0",
+    "@aws-cdk/aws-lambda": "^1.60.0",
     "@aws-cdk/core": "1.60.0",
     "source-map-support": "^0.5.16"
   }

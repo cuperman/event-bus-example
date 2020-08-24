@@ -1,0 +1,10 @@
+[
+  {
+    "Time": "2020-08-24T09:41:00Z",
+    "Source": "example.com",
+    "Resources": ["foo", "bar"],
+    "DetailType": "foo",
+    "Detail": "{ \"key1\": \"value3\", \"key2\": \"value4\" }",
+    "EventBusName": "MyBus"
+  }
+]
